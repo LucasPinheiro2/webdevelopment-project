@@ -8,4 +8,4 @@ The users now can also upload their profile information and their preferences fo
 We did that through a comments class. This class is linked to the DatePreferences class, so the users can comment on the
 preferences added by other users.
 - Another significant change to the project is that now we are using Back4App to create a database. This is significantly different
-from the previous feature, in which we simulated a back end using data from a JSON file.
+from the previous feature, in which we simulated a back end using data from a JSON file. With this database, user entries persist through refreshes so that multiple users can view each others contributions to the site, i.e. upcoming doggy dates and date prefrences!
