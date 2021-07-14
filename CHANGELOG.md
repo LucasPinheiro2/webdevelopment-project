@@ -1,11 +1,8 @@
-v0.2.0 - 2021-07-05
+v0.3.0 - 2021 - 07 - 14
 
-- The sections of the project were broken down into separate classes.
-- Each class contains a form for the user to input data.
-- Another change from the last feature is that now the user is able to select more than just a date and time.
-The users now can also upload their profile information and their preferences for the doggy dates.
-- Another functionality that was added on this feature was that users can now interact with other users.
-We did that through a comments class. This class is linked to the DatePreferences class, so the users can comment on the
-preferences added by other users.
-- Another significant change to the project is that now we are using Back4App to create a database. This is significantly different
-from the previous feature, in which we simulated a back end using data from a JSON file. With this database, user entries persist through refreshes so that multiple users can view each others contributions to the site, i.e. upcoming doggy dates and date prefrences!
+- A sign-up page and a login page were added to the website.
+- Now, users are only abble to access the main page of the website if they are authenticated.
+- Added a users class on Back4App, which is updated when a new user signs up.
+- If a user tries to access the protected route with a login and password that are not registered on the database, a message requesting the user to login again will be displayed.
+- After the user has already logged in and accessed the protected route, it is not possible to route to the login and sign-up pages.
+- The protected route accessed after the user logs in is similar to the page from feature 4, with a few minor changes.
